@@ -5,7 +5,7 @@
  *  Time: 7:17 PM
  */
 package problem1.mybst;
-// to implement BinarySearchTree
+
 import problem1.node.TreeNode;
 
 public class MyBinarySearchTree {
