@@ -14,7 +14,7 @@ public class MyPriorityQueue {
         head = null;
     }
 
-    public void insert(String name,int roll){
+    public void Enqueue(String name,int roll){
         Node n1 = new Node();
         n1.setName(name);
         n1.setRoll(roll);
