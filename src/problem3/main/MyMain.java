@@ -13,11 +13,11 @@ import problem3.myqueue.MyPriorityQueue;
 public class MyMain {
   public static void main(String[] args) {
         MyPriorityQueue obj = new MyPriorityQueue();
-        obj.insert("Sam",1);
-        obj.insert("Tom",4);
-        obj.insert("Joy",3);
-        obj.insert("Appi",2);
-        obj.insert("Candela",5);
+        obj.Enqueue("Sam",1);
+        obj.Enqueue("Tom",4);
+        obj.Enqueue("Joy",3);
+        obj.Enqueue("Appi",2);
+        obj.Enqueue("Candela",5);
         obj.display();
     }
 }
